@@ -1,4 +1,4 @@
-# Positive Black Hole Degeneracies for Dyons of Higher Torsion
+# Sen's Positivity Conjecture at Every Torsion for Small Magnetic Charge
 
 Paper (`paper/main.tex`, `paper/main.pdf`) and the programs that check it.
 

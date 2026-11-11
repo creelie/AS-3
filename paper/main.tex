@@ -33,7 +33,7 @@
 \raggedbottom
 \begin{document}
 
-\title[Positive degeneracies for higher torsion dyons]{Positive Black Hole Degeneracies\\ for Dyons of Higher Torsion}
+\title[Sen's positivity at every torsion]{Sen's Positivity Conjecture at Every Torsion\\ for Small Magnetic Charge}
 
 \author{Deep Bhattacharjee}
 \address{Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India}
@@ -44,7 +44,7 @@
 \urladdr{https://orcid.org/0000-0003-0466-750X}
 
 \begin{abstract}
-Sen's argument says that a single-centred quarter-BPS black hole carries a positive index. For dyons of torsion $r>1$ in string theory on $K3\times T^2$ we prove this for every $r$ when the magnetic charge has $P^2/2=1$ or $2$. For every magnetic charge, odd torsion follows from the primitive case and even torsion from one inequality between primitive indices.
+In string theory on $K3\times T^2$, a single-centred quarter-BPS black hole whose electric charge is $r$ times a primitive vector has positive index for every $r$ when $P^2/2\in\{1,2\}$, as Sen predicted. For any other magnetic charge, odd torsion reduces to the primitive case and even torsion to one inequality between primitive indices.
 
 \medskip\noindent\textbf{Keywords:} black hole degeneracies; non-primitive dyons; mock Jacobi forms.
 
@@ -54,6 +54,7 @@ Sen's argument says that a single-centred quarter-BPS black hole carries a posit
 \maketitle
 
 \section{Introduction}\label{sec:intro}
+\enlargethispage{4pt}
 
 A quarter-BPS dyon of $\mathcal N=4$ string theory in four dimensions carries an electric charge vector $Q$ and a magnetic charge vector $P$ in the Narain lattice $\Gamma^{22,6}$, and its protected index is a sixth helicity supertrace. When the charges support a single-centred black hole, Sen observed that the only states not belonging to the horizon are the zero modes of the broken supersymmetries, and that the spherical symmetry of the horizon then forces the horizon states to be bosonic \cite{Sen11}. The index of a single-centred black hole, normalised so as to strip off the fermion zero modes, must therefore be positive.\footnote{The argument and the normalisation are explained in Sections~1 and~2 of \cite{Sen11}. The relation between the index and the entropy of the black hole goes back to the entropy function formalism reviewed in \cite{Sen08}, and the relation between index and degeneracy for supersymmetric black holes is derived in \cite{DGMS11}. In frames where the classical solution carries hair outside the horizon one must first remove the hair; for type~II string theory on $K3\times T^2$ in the heterotic frame no further hair is present, see \cite{CD21}.} On the microscopic side the index is a Fourier coefficient of the inverse of a Siegel modular form, and the conjecture becomes a statement about the signs of these coefficients.
 
@@ -506,7 +507,7 @@ By \eqref{eq:kappa0} and \eqref{eq:kappa1}, $\kappa(3)=25353$ and $\kappa(12)=16
 For $m\ge3$ the positivity of the primitive single-centred indices is not part of this paper, and Theorem~\ref{thm:B} reduces the case of torsion $r$ to it, unconditionally for odd $r$ and through \eqref{eq:doubling} for even $r$. We computed the finite parts $\psi_m^F$ exactly from the product formula for $\Phi_{10}$, by expanding the Fourier--Jacobi coefficients $\psi_m$ and subtracting the Appell--Lerch polar parts, and evaluated $d^*$ at reduced triples through \eqref{eq:DMZ}.
 
 \begin{proposition}[computation]\label{prop:numerics}
-The doubling inequality \eqref{eq:doubling} holds for all $2410$ triples $(n',\ell',m)$ with $\ell'$ odd, $|\ell'|\le m$, $m\le199$ and $4\Delta'\le240$; the smallest ratio of the two sides is $325.2$, attained at $(1,\pm1,1)$. The single-centred index \eqref{eq:torsion} is positive for all $6065$ triples with $2\le r\le15$, $|\ell|\le m$ and $\Delta\le240$.
+The doubling inequality \eqref{eq:doubling} holds for all $2410$ triples $(n',\ell',m)$ with $\ell'$ odd, $|\ell'|\le m$, $m\le199$ and $4\Delta'\le240$; the smallest ratio of the two sides is $325.2$, attained at $(1,\pm1,1)$. The single-centred index \eqref{eq:torsion} is positive for all $6065$ triples $(n,\ell,m)$ with $2\le r\le15$, $n\in r^2\ZZ$, $\ell\in r\ZZ$, $|\ell|\le m$ and $0<\Delta\le240$.
 \end{proposition}
 
 \begin{figure}[t]
@@ -693,7 +694,7 @@ $j$ & $D'=8j+7$ & $L_2(4D')$ & $L_1(D')$\\
 
 \bibitem{Bha22} D.~Bhattacharjee, \emph{Generalization of quartic and quintic Calabi--Yau manifolds fibered by polarized K3 surfaces}, Research Square (2022). doi:10.21203/rs.3.rs-1965255/v1
 
-\bibitem{Bha26} D.~Bhattacharjee, \emph{Code and data for: Positive black hole degeneracies for dyons of higher torsion}, version v1.0.0, Zenodo (2026). doi:\zenodoDOI
+\bibitem{Bha26} D.~Bhattacharjee, \emph{creelie/AS-3: v1.0.0}, code and data, Zenodo (2026). doi:\zenodoDOI
 
 \bibitem{BM13} K.~Bringmann, S.~Murthy, \emph{On the positivity of black hole degeneracies in string theory}, Commun. Number Theory Phys. \textbf{7} (2013), 15--56. doi:10.4310/CNTP.2013.v7.n1.a2
 
