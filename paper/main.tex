@@ -1,7 +1,8 @@
 \documentclass[11pt]{amsart}
 \usepackage[margin=1.15in]{geometry}
 \usepackage{amssymb,amsmath,mathtools}
-\usepackage{graphicx,booktabs,array}
+\usepackage{graphicx,booktabs,array,float}
+\usepackage[section]{placeins}
 \usepackage[hidelinks]{hyperref}
 \usepackage[expansion=false]{microtype}
 
@@ -620,7 +621,7 @@ The constants are far from optimal. The largest value of $|g(a)|/a^5$ is $4896$,
 
 All values below are exact integers, computed from Propositions~\ref{prop:m1} and~\ref{prop:m2} with $H(N)$ obtained by counting reduced binary quadratic forms. Every value that also appears in the coefficient tables of \cite[Appendix~A]{BM13} agrees with it.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{rr}
@@ -636,7 +637,7 @@ $\pm2$ & $50064$\\
 \label{tab:prim}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{rrrr}
@@ -658,7 +659,7 @@ $N$ & $D'=4N-1$ & $\kappa(16N-4)$ & $\kappa(4N-1)$\\
 \label{tab:I1}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \small
 \begin{tabular}{rrrr}
@@ -677,6 +678,7 @@ $j$ & $D'=8j+7$ & $L_2(4D')$ & $L_1(D')$\\
 \label{tab:I2}
 \end{table}
 
+\FloatBarrier
 \section*{Declarations}
 
 \noindent\textbf{Data availability.} The programs that compute the $q$-series of Propositions~\ref{prop:m1} and~\ref{prop:m2}, check every constant of Lemmas~\ref{lem:m1bounds}, \ref{lem:m2bounds} and Appendix~\ref{app:bounds}, produce Tables~\ref{tab:prim}--\ref{tab:I2} and Proposition~\ref{prop:numerics}, and draw the figures are archived at \cite{Bha26}.
