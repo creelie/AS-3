@@ -1,0 +1,13 @@
+M1=100, exact S(j) for j<=400; analytic bound S(j) <= 1.05 j^-6 e^(4 pi sqrt j) verified for 1<=j<=400
+T finite part  = [0.2980131707 +/- 3.01e-11]
+T tail bound   = [2.2568e-372 +/- 2.31e-377]
+eps_P bound T  <= 0.298014
+eps_gamma <= sqrt2 (zeta(11)-1)(1+T) <= 9.072e-04   [zeta(11)-1 <= 4.941887e-04]
+kappa = sqrt(2 pi X0) e^-X0 I_23/2(X0) at X0 = pi sqrt3 * 100: [0.88568007 +/- 2.85e-9]
+eps_K2 <= [698.833 +/- 4.79e-4] m^(-49/4) exp((4pi+2pi sqrt3) sqrt m - pi sqrt3 sqrt(m^2+4m)) <= 1.535e-161 for m>=100
+eps_K3 <= eps_K2 bound * (sqrt2 pi m/3)(4/(3m))^(1/4) sqrt(2pi/y) <= 1.856e-160 for m>=100
+RANGE A: for every m >= 100 and every reduced form, |eps| <= 0.298921
+sum for the paper: eps_bar <= 0.2980132 + 0.0009072 + 2.1e-160 <= 0.2980132+0.0009072+2.1e-160
+  exact sum of these printed upper bounds <= 0.29892040000000000000000000000000000000000000000000000000000000000000000000000000
+assert: |eps| < 0.298921 for m >= 100  (OK)
+time 0.2s

@@ -1,0 +1,17 @@
+m=1: 3 polar pairs, all match exact
+m=2: 5 polar pairs, all match exact
+m=3: 7 polar pairs, all match exact
+m=4: 9 polar pairs, all match exact
+m=5: 12 polar pairs, all match exact
+m=6: 15 polar pairs, all match exact
+m=7: 17 polar pairs, all match exact
+m=8: 20 polar pairs, all match exact
+m=9: 23 polar pairs, all match exact
+m=10: 27 polar pairs, all match exact
+m=11: 30 polar pairs, all match exact
+m=12: 34 polar pairs, all match exact
+m=13: 37 polar pairs, all match exact
+m=14: 42 polar pairs, all match exact
+m=15: 46 polar pairs, all match exact
+m=16: 49 polar pairs, all match exact
+TOTAL polar pairs 376, nonzero 376, mismatches 0, max chain length 17

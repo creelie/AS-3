@@ -1,0 +1,24 @@
+== exact coefficients of psi_m^F from the product formula ==
+phi_{0,1} c(D), D=-1..12: [1, 10, -64, 108, -513, 808, -2752, 4016]
+d(n), n=-1..6: [1, 24, 324, 3200, 25650, 176256, 1073720, 5930496]
+m=1: computed n<=52 symmetry checks 160, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=1.9s
+m=2: computed n<=28 symmetry checks 144, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=2.8s
+m=3: computed n<=19 symmetry checks 135, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=3.6s
+m=4: computed n<=15 symmetry checks 133, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=4.5s
+m=5: computed n<=13 symmetry checks 135, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=4.6s
+m=6: computed n<=11 symmetry checks 127, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=5.8s
+m=7: computed n<=11 symmetry checks 139, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=7.1s
+m=8: computed n<=11 symmetry checks 149, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=9.1s
+m=9: computed n<=11 symmetry checks 157, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=12.1s
+m=10: computed n<=11 symmetry checks 163, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=15.6s
+m=11: computed n<=12 symmetry checks 190, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=21.4s
+m=12: computed n<=13 symmetry checks 219, failures 0 [c^F(n,l)=0 for n<=-2 by construction]  t=30.8s
+anchors:
+  (-1)^(l+1) c^F_1(2,0) = 1127472
+  (-1)^(l+1) c^F_1(2,1) = 561576
+  (-1)^(l+1) c^F_1(2,2) = 50064
+  (-1)^(l+1) c^F_2(1,0) = 1127472
+  (-1)^(l+1) c^F_2(1,1) = 561576
+  (-1)^(l+1) c^F_2(1,2) = 50064
+  c^F_10(1,6) = 1393564656  (Rossello: 1393564656)
+  c^F_m(-1,m), m=1..12: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] (expected m+2)

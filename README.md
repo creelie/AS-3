@@ -7,6 +7,7 @@ Paper (`paper/main.tex`, `paper/main.pdf`) and the programs that check it.
 - `code/psi.py`, `code/psif.py`, `code/dstar.py`: finite parts of the Fourier–Jacobi coefficients of 1/Φ₁₀ (data in `code/data/cF_240.pkl`).
 - `code/numgen.py data/cF_240.pkl 240`, `code/numtors.py data/cF_240.pkl 240`: the doubling inequality and torsion positivity for general magnetic charge.
 - `paper/figures/make_figs.py`: the figures.
+- `code/allm/`: the programs for every magnetic charge (level-one Rademacher expansion, error bound and doubling inequality); see `code/allm/README.md`.
 
 Requires Python 3 with python-flint, sympy, numpy and matplotlib.
 
