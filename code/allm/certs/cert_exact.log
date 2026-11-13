@@ -1,0 +1,25 @@
+m=1: nmax=60, 120 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 1.9s
+m=2: nmax=30, 87 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 0.9s
+m=3: nmax=20, 72 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 0.7s
+m=4: nmax=16, 61 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 0.6s
+m=5: nmax=13, 49 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 1.0s
+m=6: nmax=11, 37 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 0.7s
+m=7: nmax=10, 21 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 1.0s
+m=8: nmax=9, 7 reduced triples (0<=l<=m<=n, 0<Delta<=240), psi^F in 0.8s
+(a) 454 reduced triples with Delta<=240; nonpositive values: 0
+(a) eps = d*/E - 1 over the reduced triples with Delta<=240:
+ m | #triples | min eps | max eps | max|eps| (Delta<=60) | max|eps| (Delta>=61) | max |eps|/eps_bar
+ 1 |  120 | -0.221506 at (n,l)=(1, 0) D=4 | 0.003750 at (n,l)=(10, 0) D=40 | 0.221506 | 0.004303 | 0.2136
+ 2 |   87 | -0.289385 at (n,l)=(2, 2) D=12 | 0.168180 at (n,l)=(2, 0) D=16 | 0.289385 | 0.016604 | 0.6774
+ 3 |   72 | -0.198960 at (n,l)=(3, 3) D=27 | 0.176741 at (n,l)=(3, 0) D=36 | 0.198960 | 0.048707 | 0.9126
+ 4 |   61 | -0.195043 at (n,l)=(4, 4) D=48 | 0.143410 at (n,l)=(4, 0) D=64 | 0.195043 | 0.143410 | 0.9721
+ 5 |   49 | -0.188222 at (n,l)=(5, 5) D=75 | 0.124962 at (n,l)=(5, 0) D=100 | - | 0.188222 | 0.9881
+ 6 |   37 | -0.185432 at (n,l)=(6, 6) D=108 | 0.115608 at (n,l)=(6, 0) D=144 | - | 0.185432 | 0.9929
+ 7 |   21 | -0.183934 at (n,l)=(7, 7) D=147 | 0.110242 at (n,l)=(7, 0) D=196 | - | 0.183934 | 0.9930
+ 8 |    7 | -0.183154 at (n,l)=(8, 8) D=192 | -0.004315 at (n,l)=(8, 4) D=240 | - | 0.183154 | 0.8898
+(b) doubling d*(g) > 2 d*(f0), g in {f0(2x,y), f0(x,2y), f0(x+y,2y)}, f0 reduced, l0 odd, Delta'<=60
+    168 pairs (f0,g) checked; minimal ratio d*(g)/(2d*(f0)) = 325.2396 at f0=(1, -1, 1), g~(3, 0, 1)
+    minimal ratio by Delta': 3:325.2, 7:1846.4, 11:5898.4, 15:15407.5, 19:35896.1, 23:77339.8, 27:157133.5, 31:304737.1, 35:568822.5, 39:1028101.8, 43:1807509.4, 47:3102088.2, 51:5211857.8, 55:8592201.3, 59:13926001.9
+(c) doubling over (n',l',m), l' odd, |l'|<=m<=199, 4Delta'<=240: 2410 triples, min ratio 325.23 at (1, -1, 1)
+(c) torsion sums d*_r>0 for 2<=r<=15, n in r^2Z, l in rZ, |l|<=m<=199, 0<Delta<=240: 2781 triples, all positive; smallest 16440894 at (r,n,l,m)=(2, 4, -18, 21)
+total time 7.9s

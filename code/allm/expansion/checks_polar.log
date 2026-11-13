@@ -1,0 +1,17 @@
+== polar coefficients: wall formula (R2) vs exact coefficients ==
+m=1: 9 polar pairs (nt>=-4) checked
+m=2: 20 polar pairs (nt>=-4) checked
+m=3: 32 polar pairs (nt>=-4) checked
+m=4: 45 polar pairs (nt>=-4) checked
+m=5: 60 polar pairs (nt>=-4) checked
+m=6: 77 polar pairs (nt>=-4) checked
+m=7: 93 polar pairs (nt>=-4) checked
+m=8: 112 polar pairs (nt>=-4) checked
+m=9: 131 polar pairs (nt>=-4) checked
+m=10: 154 polar pairs (nt>=-4) checked
+m=11: 176 polar pairs (nt>=-4) checked
+m=12: 201 polar pairs (nt>=-4) checked
+total 1110 polar pairs, 356 nonzero, mismatches 0
+max over contributing walls of max(r,s)/(2m) = 1.000 (Lemma: <=1)
+nonzero polar coefficients with |Delta~| > m^2+4m: 0 (Lemma: 0)
+examples m=10: [(-1, 10, 12), (0, 1, 19675717104), (0, 7, 4309200), (1, 9, 7257600), (2, 19, 0)]
